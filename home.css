@@ -1,0 +1,124 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+smalltext {
+   font-size: 10px; 
+    color: darkblue;
+    cursor: help;
+}
+
+.topbar {
+    background-color: #82cefa;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-image: url('media/d101_small_logo.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 14px;
+    overflow: hidden;
+}
+.topbar a {
+    font-size: 25px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 14.9 27;
+    transition: background 0.25s, color 1s, border 2s;
+    border-radius: 0;
+
+}
+.topbar a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+.topbar .active {
+    text-decoration: underline;
+    color: darkgreen;
+    cursor: default;
+}
+.topbar .active:hover {
+    color: darkgreen;
+    background: none;
+}
+
+.dashboard {
+    background-color: #b7d9e8;
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    padding: 5 20;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.dashboard p {
+    transition: 0.25s;
+}
+.dashboard:hover p {
+    color: dimgray;
+}
+
+#take {
+    position: fixed;
+    background-color: #c2c3c4;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    border-radius: 50px;
+    display: none;
+    transition: 0.5s;
+}
+#take a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left: 92%;
+    font-size: 30px;
+}
+#take .header {
+    text-align: center;
+    font-size: 45;
+    padding: 0 0 25 0;
+    font-weight: 800;
+    border-bottom-style: solid;
+    border-bottom-width: 5;
+    border-bottom-color: darkslategray;
+}
+#take #taketext {
+    text-align: center;
+    font-size: 18;
+    font-weight: 500;
+}
+#take div {
+    background-color: mediumpurple;
+    width: 50px;
+    display: block;
+    width: 80%;
+    padding: 24 0;
+    margin: 36 auto 17 auto;  
+    text-align: center;
+    border-radius: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+#takebg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+    display: none;
+}
